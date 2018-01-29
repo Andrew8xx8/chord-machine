@@ -1,0 +1,73 @@
+.box {
+  margin: 20px 40px;;
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.chord-buttons {
+  margin: 0 10px;
+}
+
+.mode-button {
+  margin: 0 10px;
+}
+
+.screen {
+  margin: 10px;
+  background: #000000;
+  width: 54px;
+  height: 54px;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.play-buttons {
+  margin: 0 10px;
+}
+
+.play-chord, .play-bass {
+  margin: 5px 0;
+  text-align: center;
+  padding-top: 10px;
+  width: 40px;
+  height: 30px;
+  background-image: linear-gradient(-180deg, #FFFFFF 0%, #E7E5E5 50%, #B8B8B8 77%, #C2BDBD 96%);
+  border-radius: 23px;
+  border: 5px solid #777;
+}
+
+.pressed {
+  border: 5px solid #070;
+}
+
+.piano {
+  margin-left: 50px;
+  display: flex;
+  border-left: 1px solid #000;
+}
+
+.piano-button {
+  width: 8px;
+  height: 50px;
+  border: 1px solid #000;
+  border-left: none;
+}
+
+.piano-button-black {
+  position: relative;
+  margin-left: -3px;
+  margin-right: -3px;
+  width: 5px;
+  height: 30px;
+  background: #000;
+  z-index: 11000;
+}
+
+.piano-button-active {
+  background: #0a0;
+}
+
+.piano-button-black.piano-button-active {
+  background: #070;
+}
