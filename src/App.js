@@ -42,8 +42,8 @@ const MAJ = 0;
 const MIN = 1;
 const DIM = 2;
 
-const CHORD_NAMES = ['maj', 'min', 'dim'];
-const CHORDS = [[4, 7], [3, 7], [3, 6]];
+const CHORD_NAMES = ['maj', 'min', 'dim7', '5', 'sus2', 'sus4', 'maj7', 'm7', 'add9', ];
+const CHORDS = [[4, 7], [3, 7], [3, 6, 9], [7], [2, 7], [5, 7], [4, 7, 11], [3, 7, 10], [4, 7, 10], [4, 7, 14]];
 
 const NOTE_NAMES = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'];
 
